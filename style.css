@@ -340,3 +340,9 @@ hr {
 #career-header .resume-links a:hover {
 	background-color: rgba(255, 204, 0, 0.2);
 }
+
+#career-main section h2 {
+	font-size: 1.75rem;
+	text-align: center;
+	margin: 1.5rem 0 1rem;
+}
