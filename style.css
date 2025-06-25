@@ -352,6 +352,18 @@ hr {
 	max-width: 0 auto 1.5rem;
 }
 
+#career-img p{
+	margin-bottom: 1rem;
+	line-height: 1.6;
+	text-align: justify;
+}
+
+#career-img p strong {
+	display: inline-block;
+	margin-right: 0.5rem;
+	font-weight: bold;
+}
+
 #career-img img {
 	display: block;
 	width: 100%;
