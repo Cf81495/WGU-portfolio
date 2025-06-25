@@ -246,7 +246,7 @@ hr {
 	text-decoration: underline;
 }
 
-#cover-header,#career-header {
+#cover-header,{
 	text-align: center;
 	padding: 20px 0;
 	background-color: #333;
