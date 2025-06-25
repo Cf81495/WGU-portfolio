@@ -1,0 +1,310 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Times New Roman", georgia, serif;
+	color: black;
+	background-color: whitesmoke;
+	line-height: 1.5;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+a:focus {
+	outline: 2px solid #ffcc00;
+	outline-offset: 2px;
+}
+
+#traits-list{
+	list-style-type: none;
+	padding: 0px;
+	margin: 15px auto;
+	display: flex;
+	gap: 15px;
+	justify-content: center;
+}
+
+#main-header {
+	text-align: center;
+	padding: 25px 0;
+	background-color: #333;
+	color: white;
+}
+
+#main-header h1 {
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+#main-header .resume-links {
+	display: flex;
+	justify-content: center;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+}
+
+#main-header .resume-links a {
+	color: #ffcc00;
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	border-radius: 4px;
+	transition: background 0.3s;
+}
+
+#main-header .resume-links a:hover {
+  background-color: rgba(255,204,0,0.2);
+  color:yellow;
+}
+
+.main-nav {
+	background-color: #f5f5f5;
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 2rem;
+}
+
+.main-nav p {
+	font-style: italic;
+	margin-bottom: 1rem;
+}
+
+.main-nav ul {
+	list-style: none;
+	display:flex;
+	justify-content: center;
+	gap: 2rem;
+	flex-wrap: wrap;
+}
+
+.main-nav ul a {
+	color: #333;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border: 2px solid #333;
+	border-radius: 4px;
+	transition: background 0.3s, color 0.3s;
+}
+
+.main-nav ul a:hover {
+	background-color: rgba(255,165,0,0.2);
+	color: orange;
+}
+
+#main-resume {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;		
+}
+
+#about-me {
+	margin-bottom: 2rem;
+}
+
+#about-me h2 {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+#about-me p {
+	margin-bottom: 2rem;
+	text-align: justify;
+}
+
+#education-section {
+	margin-bottom: 2rem;
+}
+
+#education-section article {
+	background-color: #fff;
+	padding: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+#education-section h2 {
+	text-align: center;
+	font-size: 1.75rem;
+	margin-bottom: 0.75rem;
+}
+
+#education-section p {
+	margin-bottom: 0;
+	line-height: 1.6;
+}
+
+#education-section p strong {
+	display: inline-block;
+	margin-right: 0.2rem;
+}
+
+.work-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 2rem;
+}
+
+.work-table caption {
+	caption-side: top;
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.work-table thead th {
+	background-color: #333;
+	color: white;
+	padding: 0.75rem;
+	text-align: left;
+}
+
+.work-table tbody td {
+	padding: 0.75rem;
+	border-top: 1px solid #ccc;
+}
+
+.work-table tbody tr:nth-child(even) {
+	background-color: #fbe5ab;
+}
+
+.work-table tbody tr:hover {
+	background-color: rgba(255, 204, 0, 0.2);
+}
+
+#skills {
+	margin-bottom:2rem	;
+}
+
+#skills h3 {
+	font-size:1.75rem;
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+.skills-list {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+.skills-list li {
+  background-color: #e0e0e0; 
+  padding: 0.5rem 1rem;      
+  border-radius: 4px;     
+  font-size: 0.9rem;         
+}
+
+.skills-list li:hover {
+	background-color: #fbe5ab;
+}
+
+.skills-list span {
+	font-weight: bold;
+}
+
+hr {
+	border: none;
+	border-top: 3px solid #ccc;
+	margin: 2rem 0;
+}
+
+#main-resume > p {
+	text-align: center;
+	color: #555;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+
+#current-date {
+	text-align: center;
+	font-size: 0.9rem;
+	color: #777;
+	margin-bottom: 2rem;
+}
+
+.main-footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 1rem 0;
+	font-size: 0.9rem;
+	margin-top: auto;
+	border-top: 1px solid #ccc;
+}
+
+.main-footer a {
+	color: #ffcc00;
+	text-decoration: none;
+}
+
+.main-footer a:hover {
+	text-decoration: underline;
+}
+
+#cover-header {
+	text-align: center;
+	padding: 20px 0;
+	background-color: #333;
+	color: white;
+}
+
+#cover-header h1 {
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+#cover-header .resume-links {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+#cover-header .resume-links a {
+	color: #ffcc00;
+	text-decoration: none;
+	padding: 0.25rem 0.5rem;
+	border-radius: 4px;
+	transition: background 0.3s;
+}
+
+#cover-header .resume-links a:hover {
+	background-color: rgba(255, 204, 0, 0.2);
+}
+
+#cover-main {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0 20px;
+	flex:1; 
+}
+
+#cover-main p {
+	margin-bottom: 2rem;
+}
+
+#cover-intro,
+#cover-body {
+	margin-bottom: 2rem;
+}
+
+#cover-intro span {
+	font-style: italic;
+	display: inline-block;
+	margin-bottom: 0.5rem;
+}
+
+#cover-body mark {
+	background-color: #fbe5ab;
+	padding: 0 0.2rem;
+}
+
+#cover-intro hr{
+	border: none;
+	border-top: 3px solid #ccc;
+	margin: 1.5rem 0;
+}

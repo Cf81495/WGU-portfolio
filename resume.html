@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chance Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  
+  <header id="main-header">
+    <h1>Chance Farley</h1>
+    <nav class="resume-links">
+    <span><a href="#traits-list">Traits</a></span>
+    <span><a href="#about-me">About Me</a></span>
+    <span><a href="#education-section">Education</a></span>
+    <span><a href="#work-experience">Work Experience</a></span>
+    <span><a href="#skills">Skills</a></span>
+    </nav>
+
+  </header>
+
+  <ul id="traits-list">
+      <li>Web developer</li>
+      <li>Python Master</li>
+      <li>Gaming Pro</li>
+    </ul>
+
+    <nav class="main-nav">
+      <p><em>Pick any of my documents to view below!</em></p>
+    <ul>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="career-goals.html">Career Goals</a></li>
+      <li><a href="cover-letter.html">Cover Letter</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-resume">
+    <section id="about-me">
+      <article>
+        <h2>About Me</h2>
+        <p>I am a student of <strong>Western Governors University</strong>, learning how to write HTML, CSS, Python, and Javascript. Since a kid I was always tinkering around
+          with computers and playing video games. That sparked an interest in me to figure out how technology works behind the scenes, and got me into the path
+          that I am taking now. During my attendance at High School of the Future, I worked with computers even more and furthered my interest. From breaking them
+          down to looking at how the OS works.</p>
+      </article>
+    </section>
+    <section id="education-section">
+      <article>
+        <h2>Education</h2>
+        <p><strong>Western Governors University:</strong> Still enrolled <br>
+        <strong>High School of the Future:</strong> 2013</p>
+      </article>
+    </section>
+    <section id="work-experience">
+      <table class="work-table">
+        <caption>Work Experience</caption>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Company</th>
+            <th>Location</th>
+            <th>Years</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><em>Web Developer</em></td>
+            <td>Apple</td>
+            <td>Brooklyn, New york</td>
+            <td>2023-Present</td>
+          </tr>
+           <tr>
+            <td>Tech Support</td>
+            <td>Crunchyroll</td>
+            <td>Remote</td>
+            <td>2020-2023</td>
+          </tr>
+           <tr>
+            <td>IT Help Desk</td>
+            <td>Best Buy</td>
+            <td>Philadelphia, Pa</td>
+            <td>2018-2020</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    
+    <section id="skills">
+      <article>
+        <h3>Skills</h3>
+          <ul class="skills-list">
+            <li>HTML, CSS, Python, and <span>Javascript</span></li>
+            <li>PC building, cleaning, and repair</li>
+            <li>Photoshop, and Microsoft Office expert</li>
+            <li>Communication and Language</li>
+            <li>Payroll and employee scheduling</li>
+            <li>Microsoft Office Suite and Google Workspace</li>
+          </ul>
+      </article>
+    </section>
+
+    <hr>
+    <p>References available upon request<br><strong>Contact</strong> information below</p>
+    <div id="current-date"></div>
+
+  </main>
+
+  <footer class="main-footer">
+  <p>Contact: <a href="mailto:cfarle10@wgu.edu">cfarle10@wgu.edu</a></p>
+  <p> &#169; <span>2025</span> Chance Farley</p>
+  </footer>
+  <script>
+  const dateId = document.getElementById("current-date");
+  dateId.textContent = new Date().toLocaleDateString();
+
+  console.log("Hope this is good enough!");
+</script>
+</body>
+</html>
