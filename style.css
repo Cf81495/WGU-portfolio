@@ -345,5 +345,21 @@ hr {
 	font-size: 1.75rem;
 	text-align: center;
 	margin: 1.5rem 0 1rem;
-	color: hotpink !important;
+}
+
+#career-img figure {
+	margin: 0;
+	max-width: 0 auto 1.5rem;
+}
+
+#career-img img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#career-img figcaption {
+	text-align: center;
+	font-style: italic;
+	margin-top: 0.5rem;
 }
