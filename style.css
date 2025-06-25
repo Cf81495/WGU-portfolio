@@ -406,3 +406,59 @@ hr {
   max-width: 600px;        
   display: inline-block; 
 }
+
+/* ——— Career Goals: Contact Form ——— */
+#career-form form {
+  max-width: 600px;            /* limit line length for readability */
+  margin: 0 auto;              /* center the form */
+  padding: 0 10px;             /* side padding on narrow screens */
+}
+
+#career-form label {
+  display: block;              /* stack labels above controls */
+  margin-bottom: 0.25rem;      /* small gap before each field */
+  font-weight: bold;           /* distinguish labels */
+}
+
+#career-form input,
+#career-form select,
+#career-form textarea {
+  display: block;              /* each field on its own line */
+  width: 100%;                 /* fill the form width */
+  padding: 0.5rem;             /* inner spacing for usability */
+  margin-bottom: 1rem;         /* space before the next label */
+  border: 1px solid #ccc;      /* subtle border */
+  border-radius: 4px;          /* match your site’s rounded style */
+  box-sizing: border-box;      /* include padding in width */
+}
+
+#career-form fieldset {
+  border: 1px solid #ccc;      /* group outline */
+  padding: 1rem;               /* inner space */
+  margin-bottom: 1rem;         /* gap after group */
+  border-radius: 4px;
+}
+
+#career-form legend {
+  font-weight: bold;
+  margin-bottom: 0.5rem;       /* separate legend from radios */
+}
+
+#career-form button {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 1rem auto 0;
+  padding: 0.75rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#career-form button:hover {
+  background-color: rgba(255,204,0,0.2);
+  color: #333;
+}
