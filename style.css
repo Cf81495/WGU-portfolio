@@ -246,12 +246,14 @@ hr {
 	text-decoration: underline;
 }
 
-#cover-header,{
+#cover-header {
 	text-align: center;
 	padding: 20px 0;
 	background-color: #333;
 	color: white;
 }
+
+
 
 #cover-header h1 {
 	font-size: 2rem;
