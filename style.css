@@ -415,7 +415,7 @@ hr {
 }
 
 #career-form label {
-  display: block;              /* stack labels above controls */
+  display: inline-block;              /* stack labels above controls */
   margin-bottom: 0.25rem;      /* small gap before each field */
   font-weight: bold;           /* distinguish labels */
 }
