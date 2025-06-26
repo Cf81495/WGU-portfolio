@@ -414,6 +414,10 @@ hr {
   padding: 0 10px;             /* side padding on narrow screens */
 }
 
+#career-form p {
+	text-align: center;
+}
+
 #career-form label {
   display: inline-block;              /* stack labels above controls */
   margin-bottom: 0.25rem;      /* small gap before each field */
